@@ -1,7 +1,7 @@
 local builtin = require('telescope.builtin')
 local actions = require('telescope.actions')
 
-vim.keymap.set('n', 'pv', builtin.find_files, {})
+vim.keymap.set('n', '<leader>pv', builtin.find_files, {})
 
 require('telescope').setup {
   defaults = {
